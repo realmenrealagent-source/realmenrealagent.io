@@ -1,0 +1,105 @@
+@import "./styles/variables.css";
+@import "./styles/animations.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  line-height: 1.6;
+}
+
+.hero-bg {
+  --hero-size: clamp(320px, 80vw, 720px);
+  --hero-position: 140% bottom;
+  background-image: var(--hero-image);
+  background-position: var(--hero-position);
+  background-repeat: no-repeat;
+  background-size: var(--hero-size);
+  isolation: isolate;
+}
+
+@media (min-width: 768px) {
+  .hero-bg {
+    --hero-size: clamp(260px, 55vw, 560px);
+    --hero-position: right bottom;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee {
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee-track {
+  display: inline-flex;
+  gap: 0.5rem;
+  white-space: nowrap;
+  animation: marquee 16s linear infinite;
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes textGlow {
+  0%,
+  100% {
+    text-shadow:
+      0 0 8px rgba(236, 72, 153, 0.45),
+      0 0 18px rgba(99, 102, 241, 0.35);
+  }
+  50% {
+    text-shadow:
+      0 0 14px rgba(236, 72, 153, 0.7),
+      0 0 26px rgba(99, 102, 241, 0.55);
+  }
+}
+
+.glow-text {
+  text-shadow:
+    0 0 10px rgba(236, 72, 153, 0.6),
+    0 0 22px rgba(99, 102, 241, 0.45);
+}
+
+.glow-text-animated {
+  animation: textGlow 3.5s ease-in-out infinite;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--color-secondary);
+  outline-offset: 2px;
+}

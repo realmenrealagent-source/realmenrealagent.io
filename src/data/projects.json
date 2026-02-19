@@ -1,0 +1,71 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "category": "web",
+      "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop&q=80",
+      "description": "Full-stack online store with payment integration",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "client": "Fashion Retailer",
+      "date": "2025",
+      "link": "https://example.com",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Brand Identity Design",
+      "category": "design",
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop&q=80",
+      "description": "Complete brand overhaul including logo, colors, and guidelines",
+      "tools": ["Illustrator", "Photoshop", "Figma"],
+      "client": "Tech Startup",
+      "date": "2025",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "SaaS Analytics Dashboard",
+      "category": "web",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&q=80",
+      "description": "Data-rich dashboard with real-time insights and custom reporting",
+      "technologies": ["React", "TypeScript", "PostgreSQL"],
+      "client": "MetricsPro",
+      "date": "2024",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "title": "Product Launch Campaign",
+      "category": "design",
+      "image": "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?w=800&h=600&fit=crop&q=80",
+      "description": "Full launch kit including social media, pitch deck, and landing visuals",
+      "tools": ["Figma", "Photoshop", "After Effects"],
+      "client": "Nova Labs",
+      "date": "2024",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Service Booking Platform",
+      "category": "web",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop&q=80",
+      "description": "Responsive booking system with automated scheduling",
+      "technologies": ["Next.js", "Node.js", "Stripe"],
+      "client": "Urban Wellness",
+      "date": "2025",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Corporate Rebrand",
+      "category": "design",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&q=80",
+      "description": "Modernized identity system with typography and brand guidelines",
+      "tools": ["Illustrator", "InDesign", "Figma"],
+      "client": "BluePeak Capital",
+      "date": "2025",
+      "featured": true
+    }
+  ]
+}

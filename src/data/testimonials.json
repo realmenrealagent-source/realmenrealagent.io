@@ -1,0 +1,49 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Ahmed Mohamed",
+      "company": "TechFlow",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&q=80",
+      "text": "REALMENREALAGENTS delivered an amazing website AND branding. Two Agents, One Mission - they live up to it!",
+      "rating": 5,
+      "projectType": "both"
+    },
+    {
+      "id": 2,
+      "name": "Sara Khan",
+      "company": "Creative Studio",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&q=80",
+      "text": "The Design Agent created a stunning brand identity for us. Will definitely work again.",
+      "rating": 5,
+      "projectType": "design"
+    },
+    {
+      "id": 3,
+      "name": "David Lin",
+      "company": "Orbit Commerce",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&q=80",
+      "text": "Fast, responsive, and truly collaborative. The web build exceeded our performance goals.",
+      "rating": 5,
+      "projectType": "web"
+    },
+    {
+      "id": 4,
+      "name": "Mina Soliman",
+      "company": "Wave Agency",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&q=80",
+      "text": "Their team balanced structure and creativity in every deliverable. We felt supported end to end.",
+      "rating": 5,
+      "projectType": "both"
+    },
+    {
+      "id": 5,
+      "name": "Jorge Martinez",
+      "company": "GreenPath",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&q=80",
+      "text": "Incredible visual design paired with a smooth web experience. Clients love it.",
+      "rating": 5,
+      "projectType": "design"
+    }
+  ]
+}
